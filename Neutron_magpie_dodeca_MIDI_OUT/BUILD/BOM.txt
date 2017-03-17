@@ -1,0 +1,54 @@
+Provisional BOM (incomplete)
+
+Mouser cart
+https://ca.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=46d7b16813
+
+* means not in mouser cart.
+
+panels with 2x3x4 LEDs (pending)
+panels with 2mm leds (pending)
+
+
+
+12	R1 - R12 		1k or what is suitable for LEDs (purple need much lower value)
+25	R13- 24 + R37-48 + R53	10k
+3	R25,27,29, 		16.9k (only R25 if using 1 trimmer)
+9	R26,28,30-36		20k (Add R 27,29, if using 1 trimmer)
+1	R52			 220R
+
+Trimmers R49,50,51 	3296type 	 5k (only R49 if using 1 trimmer)
+
+Capacitors
+
+7	 C1, 27-32 		0.1u 805
+11	C2-12			10n 805
+12	C13-24			470p 805
+
+3 	25,26,33,		47u electrolytic.> 25v
+
+Bead X3 1210 SMD 	mouser  	875-MI1210K600R-10
+
+Semiconductor
+Teensy 3.2 *
+1x 6N137 8 pin DIP
+12x LED of choice (only 2x5 red in mouser cart)
+D13 DO232 In4148
+D14 dual protection BAT54S (S is important)
+7805 TO220 regulator.
+
+Headers (male + female for teensy)
+14pin x2 *
+4pin x 1 (female only) *
+5pin x 1 *
+2x7 SMD header				 mouser 538-15-91-0140
+ you could use a shorter 2x4 one, but this is easier to align
+
+1x2 male for external MIDI *
+1x3 male for master slave jumper *
+1x header shunt
+
+2x5 Euro power header *
+
+Kobiconn stereo jack 3.5mm
+12x thonkiconn mono jack 3.5mm *
+

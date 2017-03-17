@@ -1,0 +1,9 @@
+ideas for the neutron sound dodeca.
+
+ringifier: 		output modified "strummed" chords for rings poly 4 mode. 
+ringifier8 		output 2CVs covering 8 notes on 2 rings.
+syncLFO: 		sync LFOs with variable waveform, and rate depending on note and velocity.
+clockdivider: 		synced to MIDI clock, each output is a multiplication or division:
+pattern generator: 	drum pattern generator with parameters changed by note and velocity  
+bunch of envelopes.	envelopes per note across octave, velocity > decay, other params by mod and CC.
+drum env and trig. 	6 envelopes and triggers. make drums with a VCA and an oscillator.

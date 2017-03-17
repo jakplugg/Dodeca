@@ -1,0 +1,21 @@
+G04 DipTrace 3.0.0.2*
+G04 magpie_midi01.GBR*
+%MOIN*%
+G04 #@! TF.FileFunction,Profile*
+G04 #@! TF.Part,Single*
+%ADD11C,0.005512*%
+%FSLAX26Y26*%
+G04*
+G70*
+G90*
+G75*
+G01*
+G04 BoardOutline*
+%LPD*%
+X394000Y394000D2*
+D11*
+Y1594000D1*
+X4594000D1*
+Y394000D1*
+X394000D1*
+M02*
