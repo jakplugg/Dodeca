@@ -5,6 +5,7 @@ Dodeca can be programmed to do pretty much whatever you like with MIDI input, us
 standard MIDI library provided withe arduino/teensy
 
 boards and panels will be at magpie modular (add link when live)
+http://www.magpiemodular.com
 
 additional code by others.
 
